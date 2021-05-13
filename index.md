@@ -9,7 +9,7 @@
 <hr><br>
 <p><h2><i>Form request</i> servlet startup:</h2>
 <p></p>
-  <form action="testform" >
+  <form action="https://localhost:8080/FirstProject/testform" >
     <h3> days : <input type="text" name="days" value="5"> <br>
          site : <input type="text" name="site" value="1"> <br>         
          <input type="submit" value="Submit"> <br>
