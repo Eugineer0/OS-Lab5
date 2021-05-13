@@ -1,15 +1,19 @@
 ## Wanna see some magic?
 
-<form id="fs-frm" name="survey-form" action="https://localhost:8080/FisrtServlet/testform" method="get">
-    <label for="timely">1. Choose site to view.</label>
-    <select name="site" id="site" required="">
-      <option value="Choose" selected="" disabled="">Choose</option>
-      <option value="1">tut.by</option>
-      <option value="2">qwe</option>
-      <option value="3">qwe</option>
-    </select>
-    <br>
-    <label for="timely">2. Enter count of days to watch .</label>
-<input type="text" name="days" id="days" required="">
-  <input type="submit" value="View">
-</form>
+!DOCTYPE HTML><html lang="en"><head>
+<meta charset="UTF-8">
+<title>FirstProject Example</title>
+</head>
+<body>
+<p><h1 align="right">Lab 11</h1>
+<hr><br>
+<p><h2><i>Form request</i> servlet startup:</h2>
+<p></p>
+  <form action="testform" >
+    <h3> days : <input type="text" name="days" value="5"> <br>
+         site : <input type="text" name="site" value="1"> <br>         
+         <input type="submit" value="Submit"> <br>
+    </h3>
+  </form>
+<br><br>
+</body></html>
