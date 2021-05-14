@@ -5,8 +5,8 @@
     <select name="site" id="site" required="">
       <option value="Choose" selected="" disabled="">Choose</option>
       <option value="1">tut.by</option>
-      <option value="2">Agree</option>
-      <option value="3">Neutral</option>
+      <option value="2">dev.by</option>
+      <option value="3">sputnik.by</option>
     </select>
     <br>
     <label for="timely">2. Enter count of days to watch .</label>
